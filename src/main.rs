@@ -1,5 +1,6 @@
 use bit_vec::BitVec;
 use std::cmp::{max, min};
+use std::time::Instant;
 
 fn solve_impl(n: isize, visit: &mut BitVec, row: isize, col: isize) -> usize {
     if row == n && col == n {
@@ -32,6 +33,13 @@ fn solve(n: usize) -> usize {
 
 fn main() {
     for n in 1.. {
-        println!("oneesan({})={}", n, solve(n));
+        let start = Instant::now();
+        let ans = solve(n);
+        println!(
+            "oneesan({}) = {}, elapsed: {:.3}s",
+            n,
+            ans,
+            start.elapsed().as_secs_f64()
+        );
     }
 }
