@@ -9,11 +9,11 @@ kazoeage-oneesan
 $ cargo run --release
     Finished release [optimized] target(s) in 0.20s
      Running `target/release/kazoeage-oneesan`
-oneesan(1) = 2, elapsed: 0.000s
-oneesan(2) = 12, elapsed: 0.000s
-oneesan(3) = 184, elapsed: 0.000s
-oneesan(4) = 8512, elapsed: 0.001s
-oneesan(5) = 1262816, elapsed: 0.179s
-oneesan(6) = 575780564, elapsed: 109.431s
+oneesan(1) = 2, elapsed: 0.001s
+oneesan(2) = 12, elapsed: 0.001s
+oneesan(3) = 184, elapsed: 0.001s
+oneesan(4) = 8512, elapsed: 0.002s
+oneesan(5) = 1262816, elapsed: 0.018s
+oneesan(6) = 575780564, elapsed: 6.970s
 
 ```
