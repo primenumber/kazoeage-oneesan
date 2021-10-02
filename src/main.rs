@@ -1,6 +1,5 @@
 use bit_vec::BitVec;
 use std::cmp::{max, min};
-use std::env;
 
 fn solve_impl(n: isize, visit: &mut BitVec, row: isize, col: isize) -> usize {
     if row == n && col == n {
@@ -32,6 +31,7 @@ fn solve(n: usize) -> usize {
 }
 
 fn main() {
-    let n = env::args().nth(1).unwrap().parse().unwrap();
-    println!("oneesan({}*{})={}", n, n, solve(n));
+    for n in 1.. {
+        println!("oneesan({}*{})={}", n, n, solve(n));
+    }
 }
