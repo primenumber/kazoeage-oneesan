@@ -32,6 +32,6 @@ fn solve(n: usize) -> usize {
 
 fn main() {
     for n in 1.. {
-        println!("oneesan({}*{})={}", n, n, solve(n));
+        println!("oneesan({})={}", n, solve(n));
     }
 }
