@@ -17,3 +17,7 @@ oneesan(5) = 1262816, elapsed: 0.018s
 oneesan(6) = 575780564, elapsed: 6.970s
 
 ```
+
+## License
+
+MIT License
